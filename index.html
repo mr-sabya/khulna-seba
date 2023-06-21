@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
+
+    <!-- slick slider -->
+    <link rel="stylesheet" href="assets/vendor/slick/slick.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- menu section start -->
+    <div class="menu">
+        <div class="container">
+            <div class="menu-section">
+                <a href="#" class="menu-btn">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </a>
+
+                <div class="logo">
+                    <h2>Khulna Seba</h2>
+                </div>
+
+                <div class="main-menu">
+                    <ul class="nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Job</a></li>
+                    </ul>
+
+                    <div class="buttons">
+                        <a href="#" class="active">EN</a> <span>|</span>
+                        <a href="#">বাং</a>
+                    </div>
+
+                    <a href="#" class="help"><i class="fa-solid fa-circle-info"></i> Help</a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- menu section end -->
+
+    <!-- slider section start -->
+    <div class="hero-slider">
+        <div class="hero" id="hero">
+            <div class="slider" style="background-image: url(assets/image/new-project-1599296482873.jpeg);">
+                <div class="container">
+                    <div class="text-area">
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae?</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider" style="background-image: url(assets/image/new-project-1599296482873.jpeg);">
+                <div class="container">
+                    <div class="text-area">
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae?</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-dots"></div>
+    </div>
+    <!-- slider section end -->
+
+    <!-- service area start -->
+    <div class="services section-padding">
+        <div class="container">
+            <h2 class="heading">Our Services</h2>
+
+            <div class="servive-section">
+                <div class="item">
+                    <a href="#">
+                        <div class="service color-1" style="background-image: url(assets/image/news.png);">
+                            <h4>News</h4>
+                            <p>Get all newpapers at once</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="service color-1" style="background-image: url(assets/image/news.png);">
+                            <h4>News</h4>
+                            <p>Get all newpapers at once</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="service color-1" style="background-image: url(assets/image/news.png);">
+                            <h4>News</h4>
+                            <p>Get all newpapers at once</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="service color-1" style="background-image: url(assets/image/news.png);">
+                            <h4>News</h4>
+                            <p>Get all newpapers at once</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="service color-1" style="background-image: url(assets/image/news.png);">
+                            <h4>News</h4>
+                            <p>Get all newpapers at once</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="service color-1" style="background-image: url(assets/image/news.png);">
+                            <h4>News</h4>
+                            <p>Get all newpapers at once</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="service color-1" style="background-image: url(assets/image/news.png);">
+                            <h4>News</h4>
+                            <p>Get all newpapers at once</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="service color-1" style="background-image: url(assets/image/news.png);">
+                            <h4>News</h4>
+                            <p>Get all newpapers at once</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service area end -->
+
+
+
+    <!-- jquery -->
+    <script src="assets/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+
+
+    <!-- slick slider -->
+    <script src="assets/vendor/slick/slick.min.js"></script>
+
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        $('#hero').slick({
+            infinite: true,
+            dots: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+            nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+            appendDots: '.slider-dots',
+        });
+    </script>
+
+</body>
+
+</html>
